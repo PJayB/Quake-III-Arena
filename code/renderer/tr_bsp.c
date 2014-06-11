@@ -528,7 +528,7 @@ static void ParseFlare( dsurface_t *ds, drawVert_t *verts, msurface_t *surf, glI
 
 
 /*
-=================XINPUT_DEVSUBTYPE_GUITAR 
+=================
 R_MergedWidthPoints
 
 returns true if there are grid points merged on a width edge
