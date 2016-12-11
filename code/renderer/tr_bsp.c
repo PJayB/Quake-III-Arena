@@ -1837,11 +1837,13 @@ void RE_LoadWorldMap( const char *name ) {
 	header = (dheader_t *)buffer;
 	fileBase = (byte *)header;
 
+         /*
 	i = LittleLong (header->version);
 	if ( i != BSP_VERSION ) {
 		ri.Error (ERR_DROP, "RE_LoadWorldMap: %s has wrong version number (%i should be %i)", 
 			name, i, BSP_VERSION);
 	}
+        /**/
 
 	// swap all the lumps
 	for (i=0 ; i<sizeof(dheader_t)/4 ; i++) {
